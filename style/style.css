@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.box {
+    padding: 10px 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.col-4 {
+    width: 30%;
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+.col-6 {
+    width: 50%;  
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* ========== header ========== */
+
+.header {
+    padding: 45px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F5665;
+}
+
+.nav-btn button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+    background-color: transparent;
+}
+
+.in-btn {
+    border: none;
+    padding-right: 30px;
+}
+
+.up-btn {
+    padding: 13px 45px;
+    border: 1px solid #F53838;
+    border-radius: 50px;
+    color: #F53838;
+}
+
+/* =========== hero section ============= */
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero-title {
+    color: #0B132A;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.hero-title span {
+    font-weight: 700;
+}
+
+.paragraf {
+    padding-top: 20px;
+
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hero-btn {
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F53838;
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+
+    transition: 0.5s;
+}
+
+.hero-btn:hover {
+    box-shadow: 0px 30px 70px -11px rgba(245, 56, 56, 0.664);
+}
+
+/* ============ meta section ================= */
+
+.meta {
+    padding-top: 100px;
+}
+
+.meta-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0px 19px 71px -29px rgba(13, 16, 37, 0.2);
+}
+
+.meta-wrapper {
+    padding: 67px;
+
+    display: flex;
+    gap: 36px;
+}
+
+.meta-inner h1 {
+    font-size: 25px;
+    font-weight: 700;
+    list-style: none;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.meta-inner p {
+    padding-top: 5px;
+
+    color: #4F5665;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ===========  more section */
+
+.more {
+    padding: 100px 0;
+}
+
+.more-box {
+    padding-top: 65px;
+}
+
+.more-wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.more-inner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subtitle {
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 500px;
+    line-height: 50px;
+
+    padding-bottom: 20px;
+}
+
+.text {
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* ============ price section */
+
+.price {
+    padding-top: 80px;
+}
+
+.price-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.price-title p {
+    width: 555px;
+    padding-bottom: 60px;
+}
+
+.price-row {
+    gap: 50px;
+}
+
+.card {
+    padding: 10px 15px;
+    height: 760px;
+    width: 100%;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card:hover {
+    border-color:  #F53838;
+}
+
+.card:hover .price-btn {
+    background-color: #F53838;
+    color: #fff;
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+
+    text-align: left;
+}
+
+.price-block {
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.price-inner {
+    padding-bottom: 10px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}  
+
+.price-inner p {
+    font-size: 14px;
+    color: #4F5665;
+}
+
+.price-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.price-button h1 {
+    color: #0B132A;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.price-btn {
+    background-color: transparent;
+    padding: 13px 62px;
+}
+
+
+.price-button span {
+    font-weight: 400;
+    color: #4F5665;
+}
