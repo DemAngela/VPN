@@ -12,6 +12,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.body {
+    max-width: 1400px;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,6 +34,14 @@ button {
     padding: 10px 15px;
     width: 100%;
     height: 100%;
+}
+
+.col-2 {
+    width: 15%;
+}
+
+.col-3 {
+    width: 25%;
 }
 
 .col-4 {
@@ -239,7 +251,7 @@ button {
 }
 
 .price-row {
-    gap: 50px;
+    justify-content: space-between;
 }
 
 .card {
@@ -325,3 +337,248 @@ button {
     font-weight: 400;
     color: #4F5665;
 }
+
+/* ========== map section ============ */
+
+.map {
+    padding-top: 150px;
+}
+
+.map-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    padding-bottom: 150px;
+}
+
+.map-title h1 {
+    width: 406px;
+    font-size: 35px;
+    text-align: center ;
+}
+
+.map-title p {
+    width: 555px;
+    text-align: center;
+}
+
+/* animation */
+
+circle:nth-of-type(2n) {
+    animation: flicker 1.5s infinite alternate;
+}
+
+circle:nth-of-type(4n) {
+    animation: flicker 2s infinite alternate;
+}
+
+circle:nth-of-type(6n) {
+    animation: flicker 0.9s infinite alternate;
+}
+
+
+@keyframes flicker {
+    from { 
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* ============= promo section ========== */
+
+.promo {
+    padding: 80px 0;
+}
+
+.promo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* =========== review section =========== */
+
+.review {
+    padding-top: 50px ;
+}
+
+.review-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+.review-title h1 {
+    font-size: 35px;
+    width: 448px;
+    text-align: center;
+}
+
+.review-title p {
+    width: 555px;
+    text-align: center;
+}
+
+.review .row {
+    margin-right: -260px;
+    gap: 50px;
+
+    padding-bottom: 80px;
+}
+
+.review-box {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+
+    padding: 30px;
+}
+
+.review-box:hover {
+    border-color: #F53838;
+    box-shadow: 0px  30px 80px -41px rgba(13, 16, 37, 0.6);
+}
+
+.review-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+
+.review-card p {
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review-profile {
+    display: flex;
+    gap: 20px;
+}
+
+.review-profile h1 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.review-profile p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.review-rating {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.review-rating h1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-btn button {
+    border-color: #F53838;
+    border-radius: 50%;
+    color: #F53838;
+
+    padding: 15px;
+}
+
+.white-btn {
+    background: transparent;
+}
+
+.red-btn {
+    background: #F53838;
+    border: none;
+}
+
+/* =========== banner section ============ */
+
+.banner {
+    padding: 65px 0;
+}
+
+.banner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px 70px;
+
+    box-shadow: 0px 20px 98px -51px rgba(11, 19, 42, 0.38);
+}
+
+.banner-title {
+    width: 372px;
+}
+
+/* ========== footer ============ */
+
+footer {
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+}
+
+.txt {
+    width: 340px;
+
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.txt span {
+    font-weight: 500;
+}
+
+.footer-icon {
+    display: flex;
+    padding: 30px 0;
+
+    margin-left: -15px;
+}
+
+.footer h6 {
+    color: #AFB5C0;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.product-box h2 {
+    color: #0B132A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
