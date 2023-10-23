@@ -12,10 +12,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-.body {
-    max-width: 1400px;
-}
-
 a {
     text-decoration: none;
 }
@@ -45,7 +41,8 @@ button {
 }
 
 .col-4 {
-    width: 30%;
+    width: 33.33%;
+    padding: 15px;
 }
 
 .col-5 {
@@ -126,7 +123,7 @@ button {
 }
 
 .paragraf {
-    padding-top: 20px;
+    margin-top: 20px;
 
     color: #4F5665;
     font-size: 16px;
@@ -154,6 +151,11 @@ button {
     box-shadow: 0px 30px 70px -11px rgba(245, 56, 56, 0.664);
 }
 
+.box-hero img {
+    width: 100%;
+    object-fit: cover;
+}
+
 /* ============ meta section ================= */
 
 .meta {
@@ -169,7 +171,7 @@ button {
 }
 
 .meta-wrapper {
-    padding: 67px;
+    margin: 67px;
 
     display: flex;
     gap: 36px;
@@ -202,7 +204,7 @@ button {
 }
 
 .more-wrapper {
-    padding-top: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -220,7 +222,7 @@ button {
     font-weight: 500px;
     line-height: 50px;
 
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .text {
@@ -247,17 +249,16 @@ button {
 
 .price-title p {
     width: 555px;
-    padding-bottom: 60px;
 }
 
 .price-row {
     justify-content: space-between;
+    margin-top: 60px;
 }
 
 .card {
     padding: 10px 15px;
-    height: 760px;
-    width: 100%;
+    height: 100%;
 
     border: 1px solid #DDDDDD;
     border-radius: 10px;
@@ -288,8 +289,8 @@ button {
 }
 
 .price-block {
-    padding-top: 70px;
-    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
 
     font-size: 18px;
     font-weight: 500;
@@ -319,6 +320,8 @@ button {
     align-items: center;
 
     gap: 20px;
+
+    margin-bottom: 50px;
 }
 
 .price-button h1 {
@@ -366,6 +369,10 @@ button {
     text-align: center;
 }
 
+.map-wrapper svg{
+    width: 100%;;
+}
+
 /* animation */
 
 circle:nth-of-type(2n) {
@@ -402,6 +409,10 @@ circle:nth-of-type(6n) {
     align-items: center;
 }
 
+.promo-inner img {
+    width: 100%;
+}
+
 
 /* =========== review section =========== */
 
@@ -430,8 +441,7 @@ circle:nth-of-type(6n) {
 }
 
 .review .row {
-    margin-right: -260px;
-    gap: 50px;
+    margin-right: -150px;
 
     padding-bottom: 80px;
 }
@@ -496,6 +506,10 @@ circle:nth-of-type(6n) {
     align-items: center;
 }
 
+.page svg {
+    width: 100%;
+}
+
 .page-btn button {
     border-color: #F53838;
     border-radius: 50%;
@@ -544,12 +558,14 @@ footer {
 }
 
 .txt {
-    width: 340px;
-
     color: #4F5665;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.txt:nth-child(1) {
+    width: 340px;
 }
 
 .txt span {

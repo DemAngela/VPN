@@ -1,0 +1,243 @@
+@media (max-width:1024px) {
+    .container {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width:992px) {
+    .nav {
+        gap: 25px;
+    }
+
+    .nav-btn button {
+        font-size: 13px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .paragraf {
+        font-size: 13px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        padding-bottom: 5px;
+        line-height: 35px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .price-block {
+        font-size: 15px;
+    }
+
+    .price-inner p {
+        font-size: 12px;
+    }
+
+    .price-wrapper {
+        gap: 5px;
+    }
+
+    .map-title h1 {
+        font-size: 25px;
+    }
+
+    .review-title h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:900px) {
+    .box-hero img {
+        width: unset;
+        object-fit: unset;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .row-hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-hero .col-6:nth-child(1) {
+        width: 100%;
+    }
+
+    .hero-title {
+        width: 500px;
+    }
+
+    .hero-btn {
+        width: 180px;
+    }
+
+    .paragraf {
+        width: 555px;
+    }
+
+    .meta-inner h1 {
+        font-size: 22px;
+    }
+
+    .meta-inner p {
+        font-size: 13px;
+    }
+
+    .map-title {
+        padding-bottom: 0;
+    }
+
+    .promo {
+        padding: 20px 0;
+    }
+
+    .promo-inner img {
+        width: 80%;
+    }
+
+
+    .review .col-4:nth-child(3) {
+        display: none;
+    }
+
+    .review-profile h1 {
+        font-size: 14px;
+    }
+
+
+    .review-profile p {
+        font-size: 12px;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 33.33%;
+    }
+
+    .col-3 {
+        width: 33.33%;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
+    .page svg {
+        width: 50%;
+    }
+
+    .page-btn button {
+        padding: 5px;
+    }
+
+    .product-box {
+        gap: 5px;
+        padding-top: 50px;
+    }
+
+    .review .row {
+        margin: unset;
+    }
+}
+
+@media (max-width: 783px) {
+    .meta-wrapper {
+        margin: 40px;
+        gap: 20px;
+    }
+
+    .price-row {
+        margin-top: unset;
+        margin: 60px 120px 0 120px;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .box-hero img {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .meta-wrapper {
+        gap: 20px;
+
+        padding: 5px;
+    }
+
+    .meta-inner h1 {
+        font-size: 18px;
+    }
+
+    .more {
+        padding: 50px 0;
+    }
+
+    .price-title p {
+        padding-bottom: 40px;
+    }
+
+    .card {
+        height: 680px;
+    }
+
+    .price-block {
+        padding-top: 15px;
+    }
+
+    .price-block h1 {
+        font-size: 13px;
+    }
+
+    .price-inner p {
+        line-height: 20px;
+
+    }
+
+    .price-button h1 {
+        font-size: 15px;
+    }
+
+    .price-btn {
+        padding: 10px 30px;
+    }
+
+    .map {
+        padding-top: 100px;
+    }
+
+    .review .row {
+        padding-bottom: 50px;
+    }
+
+    .banner-box {
+        padding: 30px 40px;
+    }
+    
+}
